@@ -7,7 +7,7 @@ lon =
 API_KEY = '' #<<<Insert your api key here
 
 # API call
-url = f'http://api.openweathermap.org/data/2.5/weather?q=Buffalo&appid={API_KEY}'
+url = f'' #insert api endpoint which can be found on https://openweathermap.org/api
 
 response = requests.get(url)
 data = response.json()
@@ -35,3 +35,4 @@ df = pd.DataFrame([{
 
 # Save to Excel
 df.to_excel('City_Air_Pollution.xlsx', index=False)
+
