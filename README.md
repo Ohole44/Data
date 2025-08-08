@@ -18,3 +18,18 @@ Dependencies
 requests- makes the http call to the API
 pandas- structures data
 openpyxl- Allows to save the data frame to an excel file
+
+These can be found in requirements.txt and can be installed by running:
+
+pip install -r requirements.txt
+
+OR you can run:
+
+pip install requests pandas openpyxl
+
+Example Usage:
+
+python AirPollution.py
+
+
+
